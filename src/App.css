@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  background-size: 100%;
+  background-image: url('./assets/background.jpg');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navigation{
+ background-color: black;
+ text-align: center;
+ margin-top: 1px;
+ margin-bottom: 1px;
+ padding-bottom: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.navigation button{
+  margin-right: 50px;
   }
+
+  .hotClick{
+    font-family: TheGodfather;
+    letter-spacing: 5px;
+    font-size: 40px;
+    font-weight: lighter;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 24px 0px #751114;
+  }
+
+  .hotClick:active{
+    transform: translateY(1px);
+  }
+
+  .hotClick img{
+    height: 30px;
+    width: auto;
+    margin-right: 3px;
+  }
+
+  .regClick{
+    background-color: black;
+    box-shadow: 2px 3px 24px -7px white;
+    color: white;
+    font-family: 'Pacifico';
+    letter-spacing: 2px;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+
+  .regClick:active{
+    transform: translateY(1px);
+  }
+
+  .App h2{
+    background-color: black;
+    text-align: center;
+    font-family: 'Rubik Vinyl';
+    color: white;
+    
+
+  }
+
+  .meme{
+    text-align: center;
+    align-items: center;
+    font-family: 'Rock Salt';
+    color: white;
+    box-shadow: 2px 3px 24px -7px white;
+    margin: 80px 200px 80px 200px;
+    padding: 10px 30px 10px 30px;
+  }
+
+  .meme button{
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+
+  .meme button:active{
+    transform: translateY(1px);
+  }
+
+  .meme button img{
+    height: 30px;
+    width: auto;
+  }
+
+.navigation button {
+  cursor: pointer
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.welcome a{
+  text-decoration: none; 
+  font-family: 'Press Start 2P';
   color: white;
+  box-shadow: 2px 3px 24px -7px white;
+  font-size: 15px;
+}
+.welcome{
+  background-color: black;
+  box-shadow: 2px 3px 24px -7px white;
+  border-radius: 5px;
+  padding-top: 5px;
+}
+.welcome:active{
+  transform: translateY(1px);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.active{
+  background-color: #751114;
 }
