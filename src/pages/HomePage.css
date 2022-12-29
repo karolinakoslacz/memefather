@@ -1,0 +1,20 @@
+.mainPage{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.mainPage h1{
+color: white;
+font-family: 'Press Start 2P';
+margin-top: 30px;
+}
+
+.mainPage p{
+    color:white; 
+    font-family: 'Balsamiq Sans'   
+}
+
+.mainPage a{
+    font-family: 'Press Start 2P';
+    color: white;
+}
